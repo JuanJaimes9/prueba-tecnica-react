@@ -1,0 +1,47 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 85%;
+}
+
+.todoForm {
+  width: 80%;
+  margin: 0 10px 15px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.inputText {
+  width: 75%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0;
+  transition: 0.2s;
+}
+
+.inputText:focus {
+  outline: 3px solid var(--button-color);
+  transform: scale(1.1);
+  margin-right: 10px;
+}
+
+button {
+  background-color: var(--button-color);
+  padding: 10px;
+  border-radius: 10px;
+  color: var(--text-color);
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: var(--text-color);
+  color: var(--button-color);
+  transform: scale(1.2);
+  margin-left: 10px;
+}
